@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 import quizz_questions from '../../../assets/data/quizz_questions.json';
 import { Option, Question, Quiz } from '../types/quiz';
@@ -11,7 +12,7 @@ import { Option, Question, Quiz } from '../types/quiz';
 export class QuizzComponent {
   // TODO: Create a route for the quiz
   // TODO: Create a page with the list of quizzes
-  private id: string = 'q1'; // TODO: Get the ID dynamically
+  private id: string | null = ''; // TODO: Get the ID dynamically
   title: string = '';
   questions: Question[] = [];
   options: Option[] = [];
@@ -23,27 +24,11 @@ export class QuizzComponent {
   questionMaxIndex = 0;
   finished: boolean = false;
 
-  constructor() {
+  constructor(private route: ActivatedRoute) {
+    this.route.paramMap.subscribe((value) => {
+      this.id = value.get('id');
+    });
     this.initQuizz();
-    // if (quizz_questions) {
-    //   this.finished = false;
-    //   const desiredId = this.id;
-    //   const filteredQuiz = quizz_questions.find(
-    //     (quiz: Quiz) => quiz.id === desiredId
-    //   );
-    //   if (filteredQuiz) {
-    //     this.quizz = filteredQuiz;
-    //     this.title = filteredQuiz.title;
-    //     this.questions = filteredQuiz.questions;
-    //     this.questionSelected = this.questions[this.questionIndex];
-
-    //     this.questionIndex = 0;
-    //     this.questionMaxIndex = this.questions.length;
-    //     this.options = this.questionSelected.options;
-    //   } else {
-    //     console.log('Questionário com ID não encontrado');
-    //   }
-    // }
   }
   initQuizz() {
     if (quizz_questions) {

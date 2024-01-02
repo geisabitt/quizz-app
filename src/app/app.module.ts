@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { QuizzComponent } from './components/quizz/quizz.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { QuizzListComponent } from './components/quizz-list/quizz-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QuizzComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    QuizzListComponent
   ],
   imports: [
     BrowserModule,
