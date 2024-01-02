@@ -1,0 +1,508 @@
+[
+  {
+    "id": "q1",
+    "title": "Você seria um heroi ou vilão ?",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual super poder você escolheria ?",
+        "options": [
+          { "id": 1, "name": "Raios-Lasers", "alias": "A" },
+          { "id": 2, "name": "Voar", "alias": "B" },
+          { "id": 3, "name": "Explodir coisas", "alias": "A" },
+          { "id": 4, "name": "Curar feridas", "alias": "B" },
+          { "id": 5, "name": "Soltar fogo pelas mãos", "alias": "A" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Quem você salvaria primeiro ?",
+        "options": [
+          { "id": 1, "name": "Crianças", "alias": "A" },
+          { "id": 2, "name": "Idosos", "alias": "A" },
+          { "id": 3, "name": "Não saberia escolher", "alias": "B" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+        "options": [
+          { "id": 1, "name": "Não destruir prédios", "alias": "B" },
+          { "id": 2, "name": "Socar a cara do inimigo", "alias": "A" },
+          { "id": 3, "name": "Não sujar meu traje", "alias": "A" },
+          { "id": 4, "name": "Não deixar ninguém se ferir", "alias": "B" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual o seu maior foco ?",
+        "options": [
+          { "id": 1, "name": "Ficar rico com poderes", "alias": "A" },
+          { "id": 2, "name": "Salvar a cidade", "alias": "B" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual o seu apelido de super ser ?",
+        "options": [
+          { "id": 1, "name": "O Terrivel", "alias": "A" },
+          { "id": 2, "name": "Amigo da vizinhança", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você muito provavelmente seria um super vilão!",
+      "B": "Você muito provavelmente seria um super Herói!"
+    }
+  },
+  {
+    "id": "q2",
+    "title": "Seu tipo de férias dos sonhos",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual ambiente você prefere para suas férias?",
+        "options": [
+          { "id": 1, "name": "Praia", "alias": "A" },
+          { "id": 2, "name": "Montanhas", "alias": "B" },
+          { "id": 3, "name": "Cidade movimentada", "alias": "A" },
+          { "id": 4, "name": "Campo tranquilo", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Como você gosta de passar o tempo nas férias?",
+        "options": [
+          { "id": 1, "name": "Aventureiro e ativo", "alias": "A" },
+          { "id": 2, "name": "Relaxando e contemplando", "alias": "B" },
+          { "id": 3, "name": "Explorando novos lugares", "alias": "A" },
+          { "id": 4, "name": "Aproveitando a gastronomia local", "alias": "B" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual atividade é essencial para suas férias?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Surfar ou praticar esportes aquáticos",
+            "alias": "A"
+          },
+          { "id": 2, "name": "Fazer trilhas e acampar", "alias": "B" },
+          {
+            "id": 3,
+            "name": "Visitar museus e locais históricos",
+            "alias": "A"
+          },
+          {
+            "id": 4,
+            "name": "Degustar vinhos ou visitar vinícolas",
+            "alias": "B"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você prefere férias cheias de aventura e movimento!",
+      "B": "Você aprecia férias tranquilas e relaxantes!"
+    }
+  },
+  {
+    "id": "q3",
+    "title": "Descobrindo seu estilo musical",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual estilo musical mais te atrai?",
+        "options": [
+          { "id": 1, "name": "Rock", "alias": "A" },
+          { "id": 2, "name": "Pop", "alias": "B" },
+          { "id": 3, "name": "Rap/Hip-hop", "alias": "A" },
+          { "id": 4, "name": "Eletrônica", "alias": "B" },
+          { "id": 5, "name": "Jazz/Blues", "alias": "A" },
+          { "id": 6, "name": "Clássica", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Como você gosta de aproveitar a música?",
+        "options": [
+          { "id": 1, "name": "Energética para dançar", "alias": "A" },
+          { "id": 2, "name": "Melódica para relaxar", "alias": "B" },
+          { "id": 3, "name": "Letras significativas", "alias": "A" },
+          { "id": 4, "name": "Ritmos cativantes", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Seu estilo musical é mais voltado para ritmos animados e intensos!",
+      "B": "Você aprecia músicas mais melódicas e relaxantes!"
+    }
+  },
+  {
+    "id": "q4",
+    "title": "Escolha seu cenário literário favorito",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual ambiente de história você prefere?",
+        "options": [
+          { "id": 1, "name": "Mundo de fantasia", "alias": "A" },
+          { "id": 2, "name": "Cidades contemporâneas", "alias": "B" },
+          { "id": 3, "name": "Épocas históricas", "alias": "A" },
+          { "id": 4, "name": "Mundos futuristas", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual tipo de enredo mais te intriga?",
+        "options": [
+          { "id": 1, "name": "Aventuras épicas", "alias": "A" },
+          { "id": 2, "name": "Dramas emocionantes", "alias": "B" },
+          { "id": 3, "name": "Mistérios e investigações", "alias": "A" },
+          { "id": 4, "name": "Ficção científica inovadora", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você se identifica mais com ambientes e enredos fantásticos e misteriosos!",
+      "B": "Seu gosto literário tende para cenários contemporâneos e dramáticos!"
+    }
+  },
+  {
+    "id": "q5",
+    "title": "Descobrindo seu destino ideal",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual tipo de destino mais te atrai?",
+        "options": [
+          { "id": 1, "name": "Praia paradisíaca", "alias": "A" },
+          { "id": 2, "name": "Exploração de natureza selvagem", "alias": "B" },
+          {
+            "id": 3,
+            "name": "City break em metrópoles agitadas",
+            "alias": "A"
+          },
+          { "id": 4, "name": "Retiro tranquilo nas montanhas", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Como você prefere explorar um novo lugar?",
+        "options": [
+          { "id": 1, "name": "Atividades ao ar livre", "alias": "B" },
+          { "id": 2, "name": "Cultura e história locais", "alias": "A" },
+          {
+            "id": 3,
+            "name": "Gastronomia e experiências culinárias",
+            "alias": "B"
+          },
+          { "id": 4, "name": "Entretenimento e vida noturna", "alias": "A" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Seu destino ideal envolve experiências culturais e agitação urbana!",
+      "B": "Você prefere destinos naturais e tranquilos para se conectar com a natureza!"
+    }
+  },
+  {
+    "id": "q6",
+    "title": "Escolhendo seu estilo de filme favorito",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual gênero de filme mais te atrai?",
+        "options": [
+          { "id": 1, "name": "Ação e aventura", "alias": "A" },
+          { "id": 2, "name": "Drama e romance", "alias": "B" },
+          { "id": 3, "name": "Ficção científica e fantasia", "alias": "A" },
+          { "id": 4, "name": "Comédia e humor", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual elemento é essencial em um filme para você?",
+        "options": [
+          { "id": 1, "name": "Enredo intrigante", "alias": "A" },
+          {
+            "id": 2,
+            "name": "Desenvolvimento emocional dos personagens",
+            "alias": "B"
+          },
+          { "id": 3, "name": "Efeitos visuais impressionantes", "alias": "A" },
+          {
+            "id": 4,
+            "name": "Momentos divertidos e descontraídos",
+            "alias": "B"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você aprecia filmes cheios de ação e fantasia!",
+      "B": "Seu estilo de filme favorito tende para dramas emocionais e histórias cativantes!"
+    }
+  },
+  {
+    "id": "q7",
+    "title": "Descobrindo sua preferência culinária",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual tipo de culinária mais te atrai?",
+        "options": [
+          { "id": 1, "name": "Comida italiana", "alias": "A" },
+          { "id": 2, "name": "Culinária oriental", "alias": "B" },
+          {
+            "id": 3,
+            "name": "Churrasco e culinária sul-americana",
+            "alias": "A"
+          },
+          { "id": 4, "name": "Cozinha vegetariana/vegana", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual ingrediente você considera essencial em uma refeição?",
+        "options": [
+          { "id": 1, "name": "Massas e molhos", "alias": "A" },
+          { "id": 2, "name": "Arroz e condimentos orientais", "alias": "B" },
+          { "id": 3, "name": "Carnes e temperos típicos", "alias": "A" },
+          {
+            "id": 4,
+            "name": "Vegetais frescos e proteínas vegetais",
+            "alias": "B"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você tem uma queda por sabores intensos e diversificados!",
+      "B": "Seu paladar aprecia opções saudáveis e variadas na alimentação!"
+    }
+  },
+  {
+    "id": "q8",
+    "title": "Descobrindo seu hobby ideal",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual atividade mais te atrai como hobby?",
+        "options": [
+          { "id": 1, "name": "Artes e artesanato", "alias": "A" },
+          { "id": 2, "name": "Esportes e atividades físicas", "alias": "B" },
+          { "id": 3, "name": "Leitura e escrita", "alias": "A" },
+          {
+            "id": 4,
+            "name": "Cozinhar e experimentar novas receitas",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual aspecto é mais importante para você em um hobby?",
+        "options": [
+          { "id": 1, "name": "Expressão criativa e liberdade", "alias": "A" },
+          { "id": 2, "name": "Desafio e superação pessoal", "alias": "B" },
+          { "id": 3, "name": "Relaxamento e introspecção", "alias": "A" },
+          {
+            "id": 4,
+            "name": "Socialização e compartilhamento de experiências",
+            "alias": "B"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você aprecia hobbies que estimulam a criatividade e expressão pessoal!",
+      "B": "Seu interesse está em hobbies que envolvem desafio e interação social!"
+    }
+  },
+  {
+    "id": "q9",
+    "title": "Descobrindo seu estilo de viagem",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual meio de transporte você prefere em uma viagem?",
+        "options": [
+          { "id": 1, "name": "Avião", "alias": "A" },
+          { "id": 2, "name": "Carro", "alias": "B" },
+          { "id": 3, "name": "Trem", "alias": "A" },
+          { "id": 4, "name": "Barco", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual tipo de hospedagem você mais gosta?",
+        "options": [
+          { "id": 1, "name": "Hotel de luxo", "alias": "A" },
+          {
+            "id": 2,
+            "name": "Camping ou hospedagem ao ar livre",
+            "alias": "B"
+          },
+          { "id": 3, "name": "Pousada charmosa", "alias": "A" },
+          { "id": 4, "name": "Apartamento ou casa alugada", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Seu estilo de viagem envolve conforto e experiências exclusivas!",
+      "B": "Você prefere aventuras e experiências autênticas durante suas viagens!"
+    }
+  },
+  {
+    "id": "q10",
+    "title": "Escolha de estilo de arte favorito",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual estilo de arte mais te atrai?",
+        "options": [
+          { "id": 1, "name": "Renascimento", "alias": "A" },
+          { "id": 2, "name": "Barroco", "alias": "B" },
+          { "id": 3, "name": "Impressionismo", "alias": "A" },
+          { "id": 4, "name": "Cubismo", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "O que você aprecia mais em uma obra de arte?",
+        "options": [
+          { "id": 1, "name": "Técnica e precisão", "alias": "A" },
+          { "id": 2, "name": "Emoção e expressão", "alias": "B" },
+          { "id": 3, "name": "Cores e composição", "alias": "A" },
+          { "id": 4, "name": "Originalidade e inovação", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você se encanta com estilos clássicos e técnicas artísticas refinadas!",
+      "B": "Seu gosto artístico valoriza expressões emocionais e criatividade!"
+    }
+  },
+  {
+    "id": "q11",
+    "title": "Descobrindo seu animal espiritual",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual ambiente natural você prefere?",
+        "options": [
+          { "id": 1, "name": "Floresta exuberante", "alias": "A" },
+          { "id": 2, "name": "Deserto vasto", "alias": "B" },
+          { "id": 3, "name": "Montanhas majestosas", "alias": "A" },
+          { "id": 4, "name": "Oceano profundo", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual característica mais te atrai em um animal?",
+        "options": [
+          { "id": 1, "name": "Força e poder", "alias": "A" },
+          { "id": 2, "name": "Agilidade e destreza", "alias": "B" },
+          { "id": 3, "name": "Serenidade e sabedoria", "alias": "A" },
+          { "id": 4, "name": "Adaptação e versatilidade", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Seu animal espiritual provavelmente seria associado à força e sabedoria!",
+      "B": "Você se identifica com características ágeis e adaptáveis de um animal!"
+    }
+  },
+  {
+    "id": "q12",
+    "title": "Descobrindo sua habilidade mágica",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual elemento natural você prefere?",
+        "options": [
+          { "id": 1, "name": "Fogo", "alias": "A" },
+          { "id": 2, "name": "Ar", "alias": "B" },
+          { "id": 3, "name": "Água", "alias": "A" },
+          { "id": 4, "name": "Terra", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual seria sua principal motivação para usar uma habilidade mágica?",
+        "options": [
+          { "id": 1, "name": "Proteger e defender", "alias": "A" },
+          { "id": 2, "name": "Explorar e descobrir", "alias": "B" },
+          { "id": 3, "name": "Curar e ajudar", "alias": "A" },
+          { "id": 4, "name": "Criar e inovar", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Sua habilidade mágica estaria relacionada a proteger e curar!",
+      "B": "Você teria uma habilidade mágica voltada para explorar e inovar!"
+    }
+  },
+  {
+    "id": "q13",
+    "title": "Descobrindo seu estilo de moda",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual tipo de peça de roupa você prefere usar?",
+        "options": [
+          { "id": 1, "name": "Casual e confortável", "alias": "A" },
+          { "id": 2, "name": "Elegante e clássico", "alias": "B" },
+          { "id": 3, "name": "Estiloso e ousado", "alias": "A" },
+          { "id": 4, "name": "Despojado e prático", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual acessório não pode faltar no seu visual?",
+        "options": [
+          { "id": 1, "name": "Óculos de sol", "alias": "A" },
+          { "id": 2, "name": "Relógio elegante", "alias": "B" },
+          { "id": 3, "name": "Chapéu ou boné", "alias": "A" },
+          { "id": 4, "name": "Bolsa ou mochila estilosa", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Seu estilo de moda é mais marcado por ousadia e originalidade!",
+      "B": "Você prefere um estilo mais tradicional e elegante na moda!"
+    }
+  },
+  {
+    "id": "q14",
+    "title": "Descobrindo seu sabor de sorvete ideal",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual sabor de sorvete você prefere?",
+        "options": [
+          { "id": 1, "name": "Chocolate", "alias": "A" },
+          { "id": 2, "name": "Morango", "alias": "B" },
+          { "id": 3, "name": "Baunilha", "alias": "A" },
+          { "id": 4, "name": "Menta", "alias": "B" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual cobertura você adicionaria ao seu sorvete?",
+        "options": [
+          { "id": 1, "name": "Calda de chocolate", "alias": "A" },
+          { "id": 2, "name": "Frutas frescas", "alias": "B" },
+          { "id": 3, "name": "Nozes ou castanhas", "alias": "A" },
+          { "id": 4, "name": "Chantilly", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Seu sabor de sorvete ideal é marcado por opções mais clássicas e consistentes!",
+      "B": "Você prefere experimentar sabores mais frescos e diversificados!"
+    }
+  }
+]

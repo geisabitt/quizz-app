@@ -1,0 +1,18 @@
+.container-navbar {
+  width: 100%;
+  background-color: var(--color-primary);
+  padding: 10px;
+}
+.navbar-brand {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbar-brand h3 {
+  font-size: 32px;
+  font-weight: 100;
+  color: var(--color-gray);
+}
+.navbar-brand img {
+  width: 60px;
+}
