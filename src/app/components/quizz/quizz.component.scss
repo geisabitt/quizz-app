@@ -4,19 +4,24 @@
 }
 .quizz-container,
 .quizz-option,
+.quizz-question,
 .quizz-results,
 .quizz-results p {
   margin-top: 20px;
 }
-.quizz-questions {
+.quizz-title {
   margin-top: 60px;
   width: 100%;
   background-color: var(--color-primary);
   padding: 10px;
   border-radius: 10px 10px 0 0;
 }
-.quizz-questions h3 {
+.quizz-title h3 {
   color: var(--color-gray);
+}
+.quizz-question h3 {
+  color: var(--color-accent);
+  padding: 10px;
 }
 .quizz-option {
   display: flex;

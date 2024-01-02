@@ -1,15 +1,16 @@
 <section class="quizz-container">
-  <div class="quizz-questions">
-    <h3>Questao a ser respondida</h3>
+  <div class="quizz-title">
+    <h3>{{title}}</h3>
   </div>
-  <div class="quizz-option">
-    <button class="btn-options">resposta 1</button>
-    <button class="btn-options">resposta 2</button>
-    <button class="btn-options">resposta 3</button>
-    <button class="btn-options">resposta 4</button>
+  <div *ngIf="!finished" class="quizz-question">
+    <h3>{{questionSelected.question}}</h3>
   </div>
-  <div class="quizz-results">
+  <div *ngIf="!finished" class="quizz-option">
+    <button *ngFor="let option of options" (click)="playerChoose(option.alias)"
+      class="btn-options">{{option.name}}</button>
+  </div>
+  <div *ngIf="finished" class="quizz-results">
     <h2>Seu resultado é:</h2>
-    <p>Você é um herói, salve o mundo!</p>
+    <p> {{answersSelected}} </p>
   </div>
 </section>
