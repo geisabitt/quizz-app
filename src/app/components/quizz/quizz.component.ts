@@ -12,7 +12,7 @@ import { Option, Question, Quiz } from '../types/quiz';
 export class QuizzComponent {
   // TODO: Create a route for the quiz
   // TODO: Create a page with the list of quizzes
-  private id: string | null = ''; // TODO: Get the ID dynamically
+  id: string | null = '';
   title: string = '';
   questions: Question[] = [];
   options: Option[] = [];
