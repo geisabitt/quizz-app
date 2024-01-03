@@ -39,3 +39,14 @@
   border-radius: 10px;
   border: 1px solid var(--color-primary);
 }
+@media screen and (max-width: 670px) {
+  .list-quizz-item {
+    flex-direction: column;
+  }
+  .list-quizz-description,
+  .list-quizz-buttons {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
