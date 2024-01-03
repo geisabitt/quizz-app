@@ -1,8 +1,9 @@
 .quizz-container {
   width: 80%;
   margin: auto;
+  margin-top: 100px;
 }
-.quizz-container,
+
 .quizz-option,
 .quizz-question,
 .quizz-results,
@@ -10,7 +11,7 @@
   margin-top: 20px;
 }
 .quizz-title {
-  margin-top: 60px;
+  margin-top: 10px;
   width: 100%;
   background-color: var(--color-primary);
   padding: 10px;
@@ -43,4 +44,9 @@
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: var(--color-dark);
+}
+a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
